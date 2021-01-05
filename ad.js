@@ -1,4 +1,4 @@
-//establishing the background of the canvas
+// establishing the background of the canvas
 background(136, 67, 204);
 
 //drawing small box in the bottom-right corner
