@@ -1,29 +1,7 @@
 setup = function () {
     createCanvas(400, 400);
-    
-    //establishing the background of the canvas
-background(29, 40, 115);
+};
 
-//drawing the moon
-fill(224, 215, 224);
-ellipse(300, 229, 150, 150);
-
-//defining variable that stores the image of grass
-var grass = getImage("cute/GrassBlock");
-//defining variable that stores the image of a tree
-var tree = getImage("cute/TreeUgly");
-
-//defining the variable used to operate the while-loop below
-var x = 0;
-//loop used to output the grass
-while (x < 400) {
-    //outputting the grass-image
-    image(grass, x, 270);
-    //outputting the tree-image
-    image(tree, x, 200);
-    
-    x += 100;
-}
 
 //defining the function used to output the stars
 var drawStars = function () {
@@ -59,6 +37,30 @@ var speed2 = 15;
 
 //calling the draw function
 var draw = function() {
+    //establishing the background of the canvas
+background(29, 40, 115);
+
+//drawing the moon
+fill(224, 215, 224);
+ellipse(300, 229, 150, 150);
+
+//defining variable that stores the image of grass
+var grass = getImage("cute/GrassBlock");
+//defining variable that stores the image of a tree
+var tree = getImage("cute/TreeUgly");
+
+//defining the variable used to operate the while-loop below
+var x = 0;
+//loop used to output the grass
+while (x < 400) {
+    //outputting the grass-image
+    image(grass, x, 270);
+    //outputting the tree-image
+    image(tree, x, 200);
+    
+    x += 100;
+}
+    
     //defining the function used to output the stars
     drawStars();
     
@@ -98,6 +100,3 @@ var draw = function() {
     
     kPos += speed2;
 };
-
-};
-
