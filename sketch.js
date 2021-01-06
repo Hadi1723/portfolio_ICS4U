@@ -9,11 +9,11 @@ var drawStars = function () {
     fill(29, 40, 115);
     noStroke();
     rect(0, 0, 400, 150);
-    
+  /*  
     //loop used to output the stars on the horizontal row
     for (var k = 0; k < 304; k += 5) {
         image(getImage("space/star"), k * 10, 4, 41, 41);
-    }
+    } 
     
     //loop used to output the stars on the left-vertical row
     for (var n = 15; n < 90; n += 30) {
@@ -24,7 +24,7 @@ var drawStars = function () {
     for (var n = 15; n < 90; n += 30) {
          image(getImage("space/star"), 349, n * 2 +10, 41, 41);
     }    
-};
+}; */
 
 //defining variable that represents the x-position for the moving square
 var xPos = 5;
