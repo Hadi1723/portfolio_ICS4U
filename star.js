@@ -1,8 +1,7 @@
 setup = function () {
     createCanvas(400, 400);
-};
-
-//establishing the background of the canvas
+    
+    //establishing the background of the canvas
 background(29, 40, 115);
 
 //drawing the moon
@@ -99,3 +98,6 @@ var draw = function() {
     
     kPos += speed2;
 };
+
+};
+
