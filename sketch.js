@@ -44,19 +44,21 @@ background(29, 40, 115);
 fill(224, 215, 224);
 ellipse(300, 229, 150, 150);
 
+/*
 //defining variable that stores the image of grass
 var grass = getImage("cute/GrassBlock");
 //defining variable that stores the image of a tree
-var tree = getImage("cute/TreeUgly");
+var tree = getImage("cute/TreeUgly"); */
 
 //defining the variable used to operate the while-loop below
 var x = 0;
 //loop used to output the grass
 while (x < 400) {
+    /*
     //outputting the grass-image
     image(grass, x, 270);
     //outputting the tree-image
-    image(tree, x, 200);
+    image(tree, x, 200); */
     
     x += 100;
 }
